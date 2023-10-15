@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Intel OneAPI Students Club, BVCOE DEMO</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets\img\logo.png" rel="icon">
+  <link href="assets\img\logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link herf="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link herf="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" rel="">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script><!--tailwind css-->
+
+  <!-- Template Main CSS File -->
+  <link href="assets\css\main.css" rel="stylesheet">
+
+</head>
+
+<body><!-- nav bar start -->
+  <header class="text-sky-400 body-font">
+    <div class= "mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-black">
+      <a href="index copy.html"  class="flex title-font font-medium hover:text-white items-center text-sky-400 mb-4 md:mb-0">
+        <h1 style=" margin-right: 15px; font-size: 50px;">IntelOneAPI</h1>
+
+        <!-- <img src="https://is-aglitch.github.io/IOSCBVP.github.io/Images/logo.png" width="75px" height="600px"> -->
+        <img src="IOSC LOGO (1).png" alt="LOGO" width="100px" height="50px">
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="#hero" class="mr-5 hover:text-white text-3xl">Home</a>
+        <a href="#about" class="mr-5 hover:text-white text-3xl">About</a>
+        <a href="#services" class="mr-5 hover:text-white text-3xl">Benefits</a>
+        <a href="#team" class="mr-5 hover:text-gwhite text-3xl">Team</a>
+        <a href="#" class="mr-5 hover:text-white text-3xl">Our Club</a>
+        <a href="#contact" class="mr-5 hover:text-white text-3xl">Contact</a>
+      </nav>
+    </div>
+  </header><!-- nav bar end-->
+ 
+  <div class="snap">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" >
+    <div class="carousel-item active">
+      <img src="assets\img\1684757036098.jpg" class="d-block w-100" alt="..." width="1080" height="100">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Intel oneAPI Students Club BVP</h5>
+        <p>Everything Works with oneAPI !!</p>
+      </div>
+    </div>
+    <div class="carousel-item" >
+      <img src="assets\img\1684757036098.jpg" class="d-block w-100" alt="..." width="1080" height="650">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Intel oneAPI Students Club BVP</h5>
+        <p>Everything Works with oneAPI !!</p>
+      </div>
+    </div>
+    <div class="carousel-item" >
+      <img src="assets\img\1684757036098.jpg" class="d-block w-100 " alt="..." width="1080" height="650">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Intel oneAPI Students Club BVP</h5>
+        <p>Everything Works with oneAPI !!</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+   </div>
+  </div>
+    
+   
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p style="font-size: 21px;"><strong>IOSC BVP</strong> - Intel OneAPI Student Club, the first ever Intel collaborated club by the <strong>Department of Electronics and Communication Engineering</strong> of Bharati Vidyapeeth College of Engineering, New Delhi which aims to enhance student's skills in Technical and Non-Technical fields. <br>
+          <strong>IOSC BVP</strong> was started with the AIM of future growth in AI, ML, data-centric applications, and various domains of IOT. The industry needs a programming model that allows developers to take advantage of rapid Innovation & Creation, and IOSC is here to bridge that gap between what the Industry needs and Student's Learnings. </p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <h3>Club of Department of ECE</h3>
+            <img src="assets\img\group.jpg" class="img-fluid rounded-4 mb-4" alt="" width="500" height="450">
+            <p>Expand your horizons and get some practical experience in areas that are different to what you’re studying.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                IntelOneAPI, what you wished existed.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Joining a club or a society will enable you to connect to a peer group who shares similar interests as you.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Being a part of a club or a society helps you to gain knowledge, skills and experience in leadership.</li>
+                <li><i class="bi bi-check-circle-fill"></i> You will undoubtedly learn new skills. In a diverse group, you will be able to experience personal growth.</li>
+              </ul>
+              <p>
+                Joining a club or a society will enable you to connect to a peer group who shares similar interests as you.You will get an insight into other countries culture, values, thinking process and views.
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="assets\img\About7.jpg" class="img-fluid rounded-4" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+
+   
+
+    
+
+    <!-- ======= Our Services Section ======= -->
+    <section id="services" class="services sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Benefits</h2>
+          <p> We provide many service for every student , Explore the IntelOneAPI platform </p>
+        </div>
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-cash"></i>
+              </div>
+              <h3>Networking</h3>
+              <p> IntelOneAPI provide an excellent networking opportunities with students from various backgrounds who share similar interests. Building connections within the club can lead to friendships, collaborations on projects, and potential future career opportunities. Joining our Club often offers leadership roles such as president, vice-president, treasurer, or event coordinator.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <h3>Organize Events</h3>
+              <p>Assistance in event planning, including venue booking, logistics, and coordination.
+                Access to club resources, equipment, and facilities for organizing events.
+                Promotion and marketing support to increase event participation and visibility.
+                Guidance on event management best practices and tips for successful execution.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-info-circle"></i>
+              </div>
+              <h3>Support & Guidance</h3>
+              <p>Mentorship programs to provide guidance and support for members' personal and professional development.
+                Workshops and training sessions on various topics related to the club's focus area.
+                Collaboration opportunities with other societies/clubs or departments within the organization.
+                Access to a network of alumni or industry professionals who can offer advice and guidance.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Ambassadors</h2>
+          <p>"Empowering Change Through Global Connections: Meet Our Ambassadors"</p>
+        </div>
+
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets\img\manas.png" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Manas Marwah</h3>
+                      <h4> Tech Lead &amp; Data Visualization</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Developing my skills in Data Structures and Algorithms and also in fields of data analytics. Apart from this I'm having an experience of a Research and Development as well as Team Management at various organizations. Leading the Visualization team here at IOSC                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets\img\deepak.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Deepak Joshi</h3>
+                      <h4>President & AI Tech Lead</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Improving & optimizing existing ML models and developing crucial pipelines to make them work efficiently on low-specification computers. Using Intel oneAPI toolkits to implement new ML models and extract meaningful data from datasets.                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets\img\divyajyoti.png" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Divyajyoti Bose</h3>
+                      <h4>Tech Lead- Machine Learning</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Having participated in different hackathons I have worked on many projects to solve real world problems. I have learnt various programming languages and have been developing my skills in Android app development and in the fields of ML & AI.                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+           
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio sections-bg">
+        <div class="section-header">
+          <h2>Gallery</h2>
+          <p>What I like about photographs is that they capture a moment that's gone forever, impossible to reproduce.</p>
+        </div>
+          <!-- Carousel -->
+          
+          <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel" style="padding-left: 257px"><!--change-->
+
+
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="assets/img/group.jpg" class="d-block w-75 ml-10 shadow" alt="..."  height="750px"> <!--change-->
+              </div>
+              </div>
+          
+          
+            <div class="carousel-inner">
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/img/group 1.jpg" class="d-block w-75 ml-10 shadow" alt="..."  height="700px"> <!--change-->
+              </div>
+            </div>
+          
+            <div class="carousel-inner">
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets\img\images5.JPG" class="d-block w-75 ml-10 shadow" alt="..."  height="700px"> <!--change-->
+              </div>
+            </div>
+            <div class="carousel-inner">  
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets\img\images6.JPG" class="d-block w-75 ml-10 shadow" alt="..."  height="700px"> <!--change-->
+              </div>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/img/SoccerRobo.jpg" class="d-block w-75 ml-10 shadow" alt="..."  height="700px"> <!--change-->
+              </div>
+            </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+          </div>                 
+          
+          
+          </section>
+
+        <!--Carousel End-->
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Team</h2>
+          <p>Talent wins games, but teamwork and intelligence win championships.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets\img\monica.jpg" class="img-fluid" alt="">
+              <h4>Dr Monica Gupta</h4>
+              <span> Faculty Mentor</span><br>
+              <span>Assistant Professor</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/monica-gupta-84b06955/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets\img\shivam.jpg" class="img-fluid" alt="">
+              <h4>Shivam Kapur</h4>
+              <span> Student Mentor </span><br>
+              <span>ECE 4th Year</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/shivam-kapur-3883521b7/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets\img\deepak.jpg" class="img-fluid" alt="">
+              <h4>
+                Deepak Joshi</h4>
+              <span>President & AI Tech Lead</span><br>
+              <span>ECE 3rd Year</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/deepakjoshi2k/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets\img\rupanshi.jpg" class="img-fluid" alt="">
+              <h4>Rupanshi Bhatnagar</h4>
+              <span> General Secretary</span><br>
+              <span>ECE 3rd Year</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rupanshi-bhatnagar-5b6211214"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets\img\ankita.jpg" class="img-fluid" alt="">
+              <h4>
+                Ankita Kumari</h4>
+              <span> General Secretary </span><br>
+              <span>ECE 3rd Year</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ankita-singh-894b561b8/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets\img\manas.png" class="img-fluid" alt="">
+              <h4>Manas Marwah</h4>
+              <span> Tech Lead- Data Visualization </span><br>
+              <span>ECE 3rd Year</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/manas-marwah-32b533215/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets\img\aditya.jpg" class="img-fluid" alt="">
+              <h4>Aditya Bhandoh</h4>
+              <span> Tech Lead- Internet of Things </span><br>
+              <span>ECE 3rd Year</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aditya-bhandoh-b21419210"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets\img\divyajyoti.png" class="img-fluid" alt="">
+              <h4>Divyajyoti Bose</h4>
+              <span> Tech Lead- Machine Learning </span><br>
+              <span>ECE 3rd Year</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="content px-xl-5">
+              <h3>Frequently Asked <strong>Questions</strong></h3>
+              <p>
+                Find answers to commonly asked questions about our club/society, including membership, benefits, events, and contact information. Explore our FAQ section to get the information you need.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+
+            <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <span class="num">1.</span>
+                    How to Become a member of this club?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    To become a member, visit our website or contact us, fill out the application form, and await approval.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    <span class="num">2.</span>
+                    How to register for the event?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    To register for the event, visit our website and complete the registration form.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    <span class="num">3.</span>
+                    Are there any membership fees or dues to be paid?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    No, there are no membership fees or dues required for joining Intel-BVP.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                    <span class="num">4.</span>
+                    All event only for collge student?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Yes, all events are exclusively for college students.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                    <span class="num">5.</span>
+                    How to get notification of every event?
+                  </button>
+                </h3>
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    To receive notifications for every event, subscribe to our newsletter or join our mailing list.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+  
+    <section id="recent-posts" class="recent-posts sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Recent Events</h2>
+          <p></p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets\img\ideathon.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Ideathon</p>
+
+              <h2 class="title">
+                <a href="">Ideate</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+
+                <div class="post-meta">
+                  <p class="post-author">IntelOneAPI</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">7th June, 2023</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets\img\robosoccer.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Fun Event</p>
+
+              <h2 class="title">
+                <a href="">Robo Soccer</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                
+                <div class="post-meta">
+                  <p class="post-author">IntelOneAPI</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">29th March, 2023</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+        <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets\img\hunt.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Workshop</p>
+
+              <h2 class="title">
+                <a href="">Hunt {Ar}</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                
+                <div class="post-meta">
+                  <p class="post-author">IntelOneAPI</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">29th March, 2023</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div>
+        </div><!-- End recent posts list -->
+        
+
+      </div>
+      
+    </section><!-- End Recent Blog Posts Section -->
+
+
+    <section id="recent-posts" class="recent-posts sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Past Events</h2>
+          <p></p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets\img\event3.png" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Workshop</p>
+
+              <h2 class="title">
+                <a href="">Intel-lectual</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+
+                <div class="post-meta">
+                  <p class="post-author">IntelOneAPI</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">12th December, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets\img\event2.png" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Fun Event</p>
+
+              <h2 class="title">
+                <a href="">Tumse Na Ho Payega</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                
+                <div class="post-meta">
+                  <p class="post-author">IntelOneAPI</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">15th November, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+        <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets\img\event1.png" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Workshop</p>
+
+              <h2 class="title">
+                <a href="">Let's Welcome oneAPI</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                
+                <div class="post-meta">
+                  <p class="post-author">IntelOneAPI</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">7th November, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div>
+        </div><!-- End recent posts list -->
+        
+
+      </div>
+      
+    </section><!-- End Recent Blog Posts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Drop a message and we will get in touch with you soon !!!</p>
+        </div>
+
+        <div class="row gx-lg-0 gy-4">
+
+          <div class="col-lg-4">
+
+            <div class="info-container d-flex flex-column align-items-center justify-content-center">
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>Department Of ECE<br>Bharati Vidyapeeth's College Of Engineering, A-4 Block, Baba Ramdev Marg, Shiva Enclave, Paschim Vihar, New Delhi, Delhi 110063</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>iosc.bvcoe@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+91-8534833926</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-clock flex-shrink-0"></i>
+                <div>
+                  <h4>Open Hours:</h4>
+                  <p>Mon-Sat: 9:00AM - 5:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="https://captivators.vercel.app/" class="logo d-flex align-items-center">
+            <span>Intel OneAPI, BVCOE</span>
+          </a>
+          <p>Joining a club or a society will enable you to connect to a peer group who shares similar interests as you. Being a part of a club or a society helps you to gain knowledge, skills and experience in leadership</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.instagram.com/iosc.bvcoe/" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/iosc.bvcoe/" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/iosc-bvcoe/?original_referer=https%3A%2F%2Fis-aglitch.github.io%2F" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Benifits</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Club</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Mission</a></li>
+            <li><a href="#">Our Vission</a></li>
+            <li><a href="#">Annual Report</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+            Department Of ECE<br> Bharati Vidyapeeth's College Of Engineering,
+            A-4 Block, Baba Ramdev Marg, Shiva Enclave, Paschim Vihar, New Delhi, Delhi 110063 <br>
+            <strong>Phone:</strong> +91-8534833926<br>
+            <strong>Email:</strong> iosc.bvcoe@gmail.com<br>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>IOSC, BVP</span></strong>. All Rights Reserved
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <script>
+    function toggleNavbar() {
+      const navbar = document.getElementById('navbar');
+      const burgerMenu = document.getElementById('burger-menu');
+      
+      navbar.classList.toggle('active');
+      burgerMenu.classList.toggle('active');
+    }
+    
+    const navLinks = document.querySelectorAll('#navbar a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        const navbar = document.getElementById('navbar');
+        const burgerMenu = document.getElementById('burger-menu');
+        
+        navbar.classList.remove('active');
+        burgerMenu.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
